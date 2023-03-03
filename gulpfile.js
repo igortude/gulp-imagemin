@@ -6,7 +6,7 @@ const obfuscate = require('gulp-obfuscate');
 const imagemin = require('gulp-imagemin');
 
 function imgCompress() {
-    return gulp.src=('./source/images/*')
+    return gulp.src('./source/images/*')
     .pipe(imagemin())
     .pipe(gulp.dest('./build/images'));
 }
